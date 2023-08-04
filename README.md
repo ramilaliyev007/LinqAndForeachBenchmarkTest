@@ -1,6 +1,6 @@
 # LinqAndForeachBenchmarkTest
 
-### Some developers is saying that LINQ is slower than foreach. In this case, tt is wrong. 😮 
+### Some developers is saying that LINQ is slower than foreach. In this case, it is wrong. 😮 
 
 #### You can see the benchmark result in this repository
 
