@@ -20,14 +20,14 @@ class Program
 
         Console.WriteLine($"Foreach end. {DateTime.Now}");
 
-        //Console.WriteLine($"Linq start. {DateTime.Now}");
+        Console.WriteLine($"Linq start. {DateTime.Now}");
 
-        //benchmarkTest.SetOrderLinesWithLinq();
+        benchmarkTest.SetOrderLinesWithLinq();
 
-        //Console.WriteLine($"Linq end. {DateTime.Now}");
+        Console.WriteLine($"Linq end. {DateTime.Now}");
 
-#endif
         Console.ReadLine();
+#endif
     }
 }
 
@@ -38,7 +38,7 @@ public class BenchmarkTest
 
     List<OrderLine> orderLines = new List<OrderLine>();
 
-    public int Count { get; set; } = 100000;
+    public int Count { get; set; } = 100_000;
 
     public BenchmarkTest()
     {
